@@ -1,0 +1,4 @@
+This Project is based on ATmega128RFA1 Microcontroller. The Alarm Clock was implemented in embedded C language as an FSM. A scheduler was used to handle the tasks of input buttons debouncing, and LCD display.
+Upon start, the time of the clock is not set, and a message is shown asking the user to set the hours, then confirming, the user is asked to set the minutes. After setting the minutes,
+the clock starts counting and displaying the time of the system on the LCD with a refresh rate of 1 Hz. To start setting the alarm, the user has to press on one of the buttons (Joystick in this case),
+then uses the rotary encoder button or rotations to manipulate the value and confirms with another press of the Joystick. When the Alarm set time matches the system time, the alarm fires and prints a message "Wake up!!" on the LCD.
