@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ses_timer.h": "c",
+        "ses_common.h": "c"
+    }
+}
